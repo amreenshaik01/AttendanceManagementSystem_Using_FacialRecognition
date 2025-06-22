@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Smooth font and layout tweaks */
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-900 text-white;
+}
+
+/* Ensure image icons are smooth and consistent */
+img {
+  @apply select-none;
+}
